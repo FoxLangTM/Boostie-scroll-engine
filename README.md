@@ -71,6 +71,7 @@ Boostie is designed to be safe by default:
 - Existing "contenteditable" elements are not modified
 - Same-origin prefetch only
 - Optional features remain disabled unless explicitly enabled
+</pre>
 
 
 
