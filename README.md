@@ -2,19 +2,19 @@
 
 Boostie Engine v5.1 — a lightweight browser performance engine focused on smoother scrolling, efficient rendering, and safe DOM optimization.
 
-## Installation
 
+## Installation
 Add Boostie to your "<head>":
 
-<script
+<pre> <head><script
   src="https://cdn.jsdelivr.net/gh/FoxLangTM/Boostie-scroll-engine@main/boostie.min.js"
   defer
-></script>
+></script></head> <pre>
 
 Boostie starts automatically when the page is ready.
 
-## Features
 
+## Features
 - Adaptive Virtual Scroll
 - LRU memory driver
 - CPU / frame monitoring
@@ -27,8 +27,8 @@ Boostie starts automatically when the page is ready.
 - Runtime diagnostics
 - Priority-based task scheduler
 
-## Virtual Scroll:
 
+## Virtual Scroll:
 Virtual scrolling is opt-in and only affects explicitly marked elements.
 
 <pre data-boostie-virtual>
@@ -39,26 +39,20 @@ Virtual Scroll is enabled automatically for blocks containing 200+ lines.
 
 Boostie renders only the required portion of large text blocks while keeping the original content available.
 
-##Diagnostics
 
+##Diagnostics
 Access the Boostie API through:
 
 window.__BOOSTIE__
-
 Get a complete performance report:
-
 window.__BOOSTIE__.getReport();
-
 Virtual Scroll statistics:
-
 window.__BOOSTIE_VIRTUAL_SCROLL__.getStats();
-
 CPU statistics:
-
 window.__BOOSTIE_CPU_MONITOR__.getStats();
 
-## Performance
 
+## Performance
 Boostie automatically adapts Virtual Scroll based on frame performance:
 
 - "performance"
@@ -67,18 +61,18 @@ Boostie automatically adapts Virtual Scroll based on frame performance:
 
 It also detects slow connections and low battery conditions to reduce unnecessary prefetching.
 
-## Design
 
+## Design
 Boostie is designed to be safe by default:
 
-- No automatic virtualization of every "<pre>" or "<code>"
+- No automatic virtualization of every <> "pre" or "code"
 - Existing content is preserved
 - Existing "contenteditable" elements are not modified
 - Same-origin prefetch only
 - Optional features remain disabled unless explicitly enabled
 
+
+
 ### Version
-
 Boostie Engine v5.1
-
 «Safe performance optimization without unnecessary DOM interference.»
