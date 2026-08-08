@@ -39,7 +39,7 @@ Virtual Scroll is enabled automatically for blocks containing 200+ lines.
 Boostie renders only the required portion of large text blocks while keeping the original content available.
 
 
-##Diagnostics
+## Diagnostics
 Access the Boostie API through:
 window.__BOOSTIE__
 Get a complete performance report:
