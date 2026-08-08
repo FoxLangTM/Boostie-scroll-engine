@@ -4,7 +4,7 @@ Boostie Engine v5.1 — a lightweight browser performance engine focused on smoo
 
 
 ## Installation
-Add Boostie to your "<head>":
+Add Boostie to your <head>:
 
 <pre> <head><script
   src="https://cdn.jsdelivr.net/gh/FoxLangTM/Boostie-scroll-engine@main/boostie.min.js"
