@@ -11,6 +11,7 @@ Add Boostie to your "<head>":
   defer
 ></script></head> </pre>
 
+<pre>
 Boostie starts automatically when the page is ready.
 
 
