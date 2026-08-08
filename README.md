@@ -29,7 +29,7 @@ Boostie starts automatically when the page is ready.
 - Priority-based task scheduler
 
 
-## Virtual Scroll:
+## Virtual Scroll
 Virtual scrolling is opt-in and only affects explicitly marked elements.
 <pre data-boostie-virtual>
 Very large text content...
