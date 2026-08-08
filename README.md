@@ -9,7 +9,7 @@ Add Boostie to your "<head>":
 <pre> <head><script
   src="https://cdn.jsdelivr.net/gh/FoxLangTM/Boostie-scroll-engine@main/boostie.min.js"
   defer
-></script></head> <pre>
+></script></head> </pre>
 
 Boostie starts automatically when the page is ready.
 
