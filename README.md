@@ -67,6 +67,8 @@ Boostie is designed to be safe by default:
 - Same-origin prefetch only
 - Optional features remain disabled unless explicitly enabled
 
+
+
 ### Version
 Boostie Engine v5.1
 «Safe performance optimization without unnecessary DOM interference.»
