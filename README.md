@@ -2,7 +2,7 @@
 
 Boostie Engine v5.1 — a lightweight browser performance engine focused on smoother scrolling, efficient rendering, and safe DOM optimization.
 
-Installation
+## Installation
 
 Add Boostie to your "<head>":
 
@@ -13,7 +13,7 @@ Add Boostie to your "<head>":
 
 Boostie starts automatically when the page is ready.
 
-##Features
+## Features
 
 - Adaptive Virtual Scroll
 - LRU memory driver
